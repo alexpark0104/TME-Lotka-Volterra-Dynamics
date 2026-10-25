@@ -119,7 +119,7 @@ plt.suptitle('Block 7: Model Validation Against AstraZeneca CT-26 Data', fontsiz
 plt.tight_layout()
 plt.show()
 # VALIDATION TABLE
-rint("="*75)
+print("="*75)
 print("QUALITATIVE VALIDATION: Model Predictions vs. AstraZeneca Data")
 print("="*75)
 print(f"\n{'Observation':<50} {'Model':<15} {'Data':<15} {'Match?':<8}")
