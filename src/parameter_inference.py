@@ -93,7 +93,7 @@ print(f"True values:  beta={true_params['beta']:.4f}, rho={true_params['rho']:.4
       f"C0={y0_true[0]:.1f}, E0={y0_true[1]:.1f}, R0={y0_true[2]:.1f}")
 print(f"Initial guess: beta={theta0[0]:.4f}, rho={theta0[1]:.4f}, "
       f"C0={theta0[2]:.1f}, E0={theta0[3]:.1f}, R0={theta0[4]:.1f}")
-esult = least_squares(residuals, theta0, bounds=(lb, ub),
+result = least_squares(residuals, theta0, bounds=(lb, ub),
                        method='trf', max_nfev=500, verbose=2)
 
 theta_fit = result.x
