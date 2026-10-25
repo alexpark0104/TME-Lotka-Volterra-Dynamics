@@ -1,5 +1,8 @@
 # Phenomenological Tumor-Immune-Treg Ecosystem Dynamics
 
+## Project status 
+This repository is undergoing a ground-up scientific and technical rework. The current implementation is an exploratory prototype and should not be interpreted as quantitatively validated or clinically predictive. See REWORK.md for details.
+
 ## Overview
 
 This repository contains a 3-species ordinary differential equation (ODE) framework for exploring tumor-microenvironment (TME) dynamics. The model extends classical Lotka-Volterra predator-prey dynamics by introducing resource limitation, saturating immune-mediated tumor killing, and phenomenological immunosuppressive checkpoint effects.
